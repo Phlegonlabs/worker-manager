@@ -1,4 +1,3 @@
-# Documents
 
 
 ## Harness context maintenance
