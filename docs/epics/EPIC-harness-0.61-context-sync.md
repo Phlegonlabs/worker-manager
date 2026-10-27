@@ -1,0 +1,51 @@
+# Harness 0.61.0 context synchronization
+
+## Scope
+
+Update shared instructions and existing skill pins. Preserve project rules, product decisions and history. UI impact: none.
+The owner selected `codex/harness-refresh-0.61.0` on 2026-10-04. Local atomic commits follow the effective owner instructions.
+This direct task grants no new push, deployment, activation, protected-branch promotion or cleanup.
+
+## Baseline
+
+- Repository: `C:\Users\mps19\Documents\GitHub\worker-manager`
+- Original branch: `main`
+- Observed HEAD: `9b8b1e5d43289b2bea328f93321a79445049f20c`
+- Work branch: `codex/harness-refresh-0.61.0`
+- Prior dirty paths: 0; observed / unverified, outside this maintenance scope.
+- Installed Harness: 0.61.0; loaded skill identity: unknown.
+- Installed template SHA-256: `feed8dcc70b3691d9822a1b05641d4502dae452fd1926954f09db3fc78fff62f`
+- Requirements: HARNESS maintenance; no product requirement change.
+- Route: one parent writer, sequential direct document maintenance; no managed PLAN/RUN.
+
+## Change Log
+
+2026-10-04 — working-tree: reconciled AGENTS.md, CLAUDE.md.
+Shared rules are current by meaning. Retained local differences: project-specific headings, paths and deployment context.
+Changed instruction fingerprint: `d963522d0651237def15489a113097fbb25807ffabff3db92fe4cf1570242841`.
+
+Verification: bindings product-definition: PASS; context headings valid; owner sections preserved; original PLAN/RUN bytes preserved where present.
+Unrelated tracked working changes retain their original diff. The staged scope receives a final whitespace check before commit.
+Stage slots remain pending; no managed stage readiness is claimed.
+No application code changed, so application tests and browser checks are not applicable.
+No artifact class was introduced; generated logs and receipts stay outside the repository. Existing ignore rules remain unchanged.
+Commit identity is retained in the external per-checkout receipt, rather than a self-referencing commit.
+
+## Handoff
+
+The English product sources and existing approvals remain authority. Historical design packages and managed RUNs stay unchanged.
+This record covers context maintenance only. Product readiness, deployment setup, unresolved bindings and loaded runtime identity remain separate checks.
+
+## 2026-10-07 — Harness 0.62.3 context entry
+
+The owner requested the update across the GitHub folders. UI impact: none; direct maintenance by one parent writer.
+Baseline: `c159f15b9902fcfc1eccff0af7c0d13d83414fdd` on `codex/harness-refresh-0.61.0`. Prior unrelated changes remain observed/unverified.
+Scope: `AGENTS.md`.
+Installed template SHA-256: `0ab60fc38dbad32ed6025833a1ea152c7d2e38da5b8c22a6584f25edb082de11`. Loaded skill identity remains unknown.
+Moved shared procedures behind mandatory routes. Retained local rule text, skill pins, deployment facts and historical RUN bytes.
+Verification: exact retained-section comparison, local link/anchor checks, scoped whitespace check and independent review. Final results and commit identity are recorded in the checkout-external GitHub synchronization report.
+No product tests are applicable. This update grants no push, deployment, installation, archival or cleanup.
+
+| 2026-10-25 Harness candidate adoption | Owner requested all GitHub Harness checkouts use the latest candidate and publish their work branches. Baseline `654a6d7df27c28eef2ee4a769ef2a5f66fad7861` on `codex/harness-refresh-0.61.0`. `AGENTS.md` and `CLAUDE.md` adopt 0.69.0 source `4b46736d8665d9ad5704e3a31b6f4fb8f6bbe7d7`; bundle `d4bb059a057766f65bb886de3fcc6743e5ad3fc719513f4c64e3051693db3a23`; template `32ca0bf1680c8bf84b045e9d98521550cc7d53a668db41731c8f902f9831bf7e`; instruction fingerprint `ad3d8e414564f39af66ea64d76ad2915f2fb7ba5b6705f3bba8c2386b3620bf2`. Shared rules reconciled by meaning; local owner sections, external/pending bindings, product/design bytes and RUN pins retained. Bindings PASS (product-definition only; unresolved slots retained); exact retained-byte and whitespace checks PASS. Entry inventory reviewed for this maintenance scope; loaded identity remains unobserved. UI impact: none. No product readiness or release approval. Independent review and remote readback follow in the parent handoff. |
+| 2026-10-25 product-document reconciliation | Verified tracked docs by name: only docs/DOCUMENTS.md and this Epic. No docs/product package exists; no PRD was created. Prior dirty docs/DOCUMENTS.md preserved byte-identical and unstaged, so the manifest status is recorded here. | No checker applicable (no package). Next action: owner reconciles the dirty DOCUMENTS.md edits; product definition needs a separate owner request. |
+| 2026-10-26 Harness 0.72.0 adoption | Owner asked every GitHub Harness checkout to use the released 0.72.0. Baseline `6bc1bc52e6eccd81086d0702cb0288f26dfae7fa` on `codex/harness-refresh-0.61.0`. `AGENTS.md` Harness Version moves from candidate 0.69.0 to released `v0.72.0` (`e1cd13a4af3e5b916e57bb2d3ba0978a1e001f4e`), contract `06ca34cf1fc2c9f3846c7eb035236fa251ac1727955bce0d25ebc61801f4d50d`, shared root. No bound Harness pin changed. Bindings check: exit 1: C:\Users\mps19\Documents\GitHub\worker-manager\AGENTS.md: line 51: slot 'code_security_verification' must bind exactly one skill name, got '`pending`'. CLAUDE.md unchanged (project template unchanged since 0.69). Product/design bytes, approvals and RUN pins retained. UI impact: none. Not pushed. |
