@@ -1,0 +1,18 @@
+{
+  "schema": "document-sync/1",
+  "installed_digest": "beab394e9bb952be6766d0b20472de299ae07af1362b7a2c8796ea26ef9f91da",
+  "documents": {
+    "AGENTS.md": "5e428af8cdeb6861e670517dcdf0b4ed18fdcdd33c8847679f9241e5ebc794e3",
+    "AGENTS.override.md": null,
+    "CLAUDE.md": "9d8ba938f5a36337e0a47bb97c453066090ed7271e04b7695fbb82429c58f7f4",
+    "docs/DOCUMENTS.md": "c92cdf5f3d7e3c9677e24ee4131dec6bcd3696181d192a115844b5eb9eb0f4a1",
+    "docs/product/PRD.md": null,
+    "docs/product/architecture.md": null,
+    "docs/product/stack-decisions.md": null,
+    "docs/design/ui-design.md": null,
+    "docs/DEPLOYMENT.md": null,
+    "docs/goal/PLAN.md": null,
+    "docs/goal/RUN.md": null,
+    "docs/epics/EPIC-harness-0.61-context-sync.md": "11b05f359a1269f1d2ce6dcffd0d6bb6af0c9171dff649252f8da69c22a2e4d8"
+  }
+}
