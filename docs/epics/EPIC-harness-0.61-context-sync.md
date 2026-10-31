@@ -31,11 +31,6 @@ No application code changed, so application tests and browser checks are not app
 No artifact class was introduced; generated logs and receipts stay outside the repository. Existing ignore rules remain unchanged.
 Commit identity is retained in the external per-checkout receipt, rather than a self-referencing commit.
 
-## Handoff
-
-The English product sources and existing approvals remain authority. Historical design packages and managed RUNs stay unchanged.
-This record covers context maintenance only. Product readiness, deployment setup, unresolved bindings and loaded runtime identity remain separate checks.
-
 ## 2026-10-07 — Harness 0.62.3 context entry
 
 The owner requested the update across the GitHub folders. UI impact: none; direct maintenance by one parent writer.
@@ -51,3 +46,19 @@ No product tests are applicable. This update grants no push, deployment, install
 | 2026-10-26 Harness 0.72.0 adoption | Owner asked every GitHub Harness checkout to use the released 0.72.0. Baseline `6bc1bc52e6eccd81086d0702cb0288f26dfae7fa` on `codex/harness-refresh-0.61.0`. `AGENTS.md` Harness Version moves from candidate 0.69.0 to released `v0.72.0` (`e1cd13a4af3e5b916e57bb2d3ba0978a1e001f4e`), contract `06ca34cf1fc2c9f3846c7eb035236fa251ac1727955bce0d25ebc61801f4d50d`, shared root. No bound Harness pin changed. Bindings check: exit 1: C:\Users\mps19\Documents\GitHub\worker-manager\AGENTS.md: line 51: slot 'code_security_verification' must bind exactly one skill name, got '`pending`'. CLAUDE.md unchanged (project template unchanged since 0.69). Product/design bytes, approvals and RUN pins retained. UI impact: none. Not pushed. |
 | 2026-10-29 Harness 0.73.0 adoption | Baseline `228341c7974c5e28a7fd1451b032ab2bbd492323` on `harness-0.73.0`. `AGENTS.md` Harness Version moves from released `v0.72.0` to the 0.73.0 candidate `feat/surface-taxonomy` @ `e8475300`, not yet tagged; five-skill contract `f7bfe714…`, shared root. `code_security_verification` now binds `delivery-harness/references/security-review.md` (`5295475d…`) instead of `code-security-review`, and the post-delivery activation route becomes external setup. Other pins unchanged. Bindings check: exit 1; only the pending UI slots (ui_design, style_integration, design_compilation, frontend_implementation, ui_quality_verification) are unresolved, as before. CLAUDE.md unchanged. Product/design bytes, approvals and RUN pins retained. UI impact: none. No product or release change. Not pushed. |
 | 2026-10-31 Harness 0.74.0 adoption | Adopt released Harness 0.74.0 from tag `v0.74.0` (`b8e322498c9f93a8aec18d7f439c470f98f88de0`), five-skill contract `beab394e9bb952be6766d0b20472de299ae07af1362b7a2c8796ea26ef9f91da`, shared root. The release adds the inspector `Next` block, stage cards, the launch brief, route caps, the readiness environment preflight, the Epic `## Handoff` block and the independent PRD review. Bindings check: exit 1: pending UI slots remain (design_compilation, frontend_implementation, style_integration, ui_design, ui_quality_verification). No product or release change. UI impact: none. Not pushed. |
+
+## Handoff
+
+Rewrite this block in place at each checkpoint; never append a second block.
+
+```text
+Repository / branch / HEAD / dirty paths: worker-manager, main, baseline d88532803c922aea428a142cd286ee6b11f2ac39; clean
+Stage and skill: direct Harness context and document maintenance, no PLAN/RUN; delivery-harness 0.74.0 shared installation
+Inputs consumed (path + hash or revision): repository documents at baseline d885328 (AGENTS.md, CLAUDE.md, docs/DOCUMENTS.md, this Epic, README.md, SECURITY.md, release-notes-v0.3.0-beta.1.md); installed contract beab394e9bb952be6766d0b20472de299ae07af1362b7a2c8796ea26ef9f91da
+Approvals in force (gate, owner, date, candidate): owner-authorized local atomic context-maintenance commits (Epic scope 2026-10-04; adoption rows through 0.74.0); released product 0.3.0-beta.1 predates this work; no push, deployment, installation or new release authorized here
+Done and verified (command, exit code): git diff --check (exit 0) before each commit; check_document_sync.py without baseline returned exit 1 (baseline_review_required, loaded_identity_unobserved); no factual correction was required
+Remaining: five UI stage-slot bindings await owner selection (bindings check exit 1 per the 0.74.0 adoption row); no PRD package or product-definition work exists
+Blocked / waiting (gate name or owner decision): owner decision on installed skills for the pending UI stage slots
+Next action (one command or one owner decision): owner names installed skills for the five pending UI stage slots or confirms they stay pending
+Next owner (skill or human): human owner
+```
