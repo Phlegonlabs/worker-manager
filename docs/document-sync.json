@@ -2,7 +2,7 @@
   "schema": "document-sync/1",
   "installed_digest": "9ffdddabf8b701a672dbc037308e78dcd90f7ccf57407ac6eef7bb9bb24c1740",
   "documents": {
-    "AGENTS.md": "271324ba13a582be4acb4aa3ea82467e271a375b8f5052aabaaf288ee3886e84",
+    "AGENTS.md": "f4d360977850f5175b415bd8d7b105290db1470dc07990c1208ab46a313e29ef",
     "AGENTS.override.md": null,
     "CLAUDE.md": "9d8ba938f5a36337e0a47bb97c453066090ed7271e04b7695fbb82429c58f7f4",
     "docs/DOCUMENTS.md": "c92cdf5f3d7e3c9677e24ee4131dec6bcd3696181d192a115844b5eb9eb0f4a1",
@@ -13,6 +13,6 @@
     "docs/DEPLOYMENT.md": null,
     "docs/goal/PLAN.md": null,
     "docs/goal/RUN.md": null,
-    "docs/epics/EPIC-harness-0.61-context-sync.md": "f219dec99a5adac9e0dd5ea3f74ddb002ff494efd88a429cf92a5afca1ceed39"
+    "docs/epics/EPIC-harness-0.61-context-sync.md": "445dfd7b63253508cbf5cf7eb5755d93537e651f26453e5f935c133b694d81a8"
   }
 }
