@@ -16,7 +16,7 @@ Existing data protection and action authorization still apply.
 
 - Shared installation: Harness `0.75.2` from tag `v0.75.2` (`d70347f898c700a64f05ec04712f533f79a4b92a`), installed 2026-11-02 under `C:/Users/mps19/.agents/skills`.
 - Five-skill contract SHA-256: `9ffdddabf8b701a672dbc037308e78dcd90f7ccf57407ac6eef7bb9bb24c1740`.
-- Surfaces: the PRD Shape track is one of `web`, `app`, `agent`, `tool`, `content`; release targets and presence surfaces follow `delivery-harness/references/surface-catalog.md`. External setup and Measurement Sources live in `docs/DEPLOYMENT.md`; the activation record is retired.
+- Surfaces: the PRD Shape track is one of `web`, `app`, `agent`, `tool`, `content`; release targets and presence surfaces follow `delivery-harness/references/surface-catalog.md`. External setup and Measurement Sources belong in `docs/DEPLOYMENT.md`, which does not exist yet because no deployment is configured; the activation record is retired.
 - Resolve `delivery-harness/` references, `--skill-dir` and `--skills-root` from the shared installation.
 - Preserve unresolved bindings, product approvals, original PLAN/RUN pins and their evidence. This adoption does not resume a RUN.
 - Active workers finish on their pinned bundle. New dispatch needs fresh capability checks; loaded session identity remains unobserved.
