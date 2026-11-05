@@ -2,17 +2,17 @@
   "schema": "document-sync/1",
   "installed_digest": "19103632ce3eb28438ade6ac4fc7683106960533ca861d287031cf978c137d60",
   "documents": {
-    "AGENTS.md": "4860f23f531336acd342ab471209fdde6c27369a307dcd94c03f1bace1d8d22b",
+    "AGENTS.md": "06196afaa3079c27ed352fac2e1c28e124aec0fb6b511c756618a62abad0f171",
     "AGENTS.override.md": null,
     "CLAUDE.md": "f841663245dc7cff0d48ddae299ebf659307b287660dcec639cb4a7cdeb07043",
-    "docs/DOCUMENTS.md": "c92cdf5f3d7e3c9677e24ee4131dec6bcd3696181d192a115844b5eb9eb0f4a1",
-    "docs/product/PRD.md": null,
-    "docs/product/architecture.md": null,
-    "docs/product/stack-decisions.md": null,
-    "docs/design/ui-design.md": null,
     "docs/DEPLOYMENT.md": null,
+    "docs/DOCUMENTS.md": "c92cdf5f3d7e3c9677e24ee4131dec6bcd3696181d192a115844b5eb9eb0f4a1",
+    "docs/design/ui-design.md": null,
+    "docs/epics/EPIC-harness-0.61-context-sync.md": "9f46bfee1d75cda568c0db4ff44f97a042555d09bca3aa02d7a3808100c353b2",
     "docs/goal/PLAN.md": null,
     "docs/goal/RUN.md": null,
-    "docs/epics/EPIC-harness-0.61-context-sync.md": "0acbec25638f1ca9c6d2a3a0cab105eb2bb3a792017cfcf42a7083b39d500100"
+    "docs/product/PRD.md": null,
+    "docs/product/architecture.md": null,
+    "docs/product/stack-decisions.md": null
   }
 }
